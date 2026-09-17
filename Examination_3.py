@@ -5,6 +5,11 @@
 # ==========================================
 
 
-# นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+# นักเรียนเขียนโค้ดต่อจากบรรทั
 price = float(input())
 is_member = int(input())
+
+if is_member is 1:
+    print(price - (price * 10 / 100))
+elif is_member is 0:
+    print (price)
